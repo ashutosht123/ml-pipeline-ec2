@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         EC2_USER = "ubuntu"
-        EC2_HOST = "<your-ec2-public-ip>"
+        EC2_HOST = "3.109.184.147"
         SSH_KEY = "C:\\Users\\your_user\\.ssh\\id_rsa"
     }
 
