@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: "git@github.com:yourusername/yourrepo.git"
+                git branch: 'main', url: "git@github.com:ashutosht123/ml-pipeline-ec2.git"
             }
         }
 
